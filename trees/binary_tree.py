@@ -88,7 +88,6 @@ def main():
 
     parent_child_pair_missing_node = [[1, 2, 3], [2, 4, None], [3, 6, 7], [4, 8, 9], [6, 12, 13], [7, 14, 15]]
     tree = create_tree(parent_child_pair_missing_node)
-    print("----------")
     tree.print_tree()
 
 
